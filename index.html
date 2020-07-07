@@ -10,6 +10,18 @@
 <body>
     <input id="inputStr">
     <script src="./String/reverseVowels.js"></script>
+    <script src="./ES6/MapSet.js"></script>
+    <script src="./TwoPoints/sortColors.js"></script>
+    <script>
+        document.getElementById("inputStr").addEventListener("keydown", function(event) {
+            var s = document.getElementById("inputStr").value
+            var nums = [1, 2, 0]
+            if (event.keyCode == 13) {
+                reverseVowels(s);
+                sortColors(nums);
+            }
+        })
+    </script>
 </body>
 
 </html>
