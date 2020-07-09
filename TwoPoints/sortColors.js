@@ -20,12 +20,10 @@
 链接：https://leetcode-cn.com/problems/sort-colors
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
+//points:数组的操作方法，向数组头部插入数据unshift，删除第一个元素shfit，向数组尾部插入push，删除数组某个元素splice(2,1)
+//条件语句的控制器，控制循环次数，和指针index要区分清楚。
 
 var sortColors = function(nums) {
-    var counti = 0
-    var countj = 0
-    var countk = 0
-    var result = []
     var i = 0
     var count = 0
     while (count < nums.length) {
@@ -45,6 +43,4 @@ var sortColors = function(nums) {
     }
     console.log(nums)
     return nums;
-
-
 }
