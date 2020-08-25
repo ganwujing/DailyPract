@@ -1,0 +1,7 @@
+#sun {
+    transition: fill 3s;
+}
+
+#sun:hover {
+    fill: yellow;
+}
