@@ -24,11 +24,12 @@
     transition: right 5s;
 }
 
-#moondiv:hover {
+
+#sunmoon:hover #moondiv {
     right: -50px;
     background-color: white;
 }
 
-#sundiv:hover {
+#sunmoon:hover #sundiv{
     background-color: yellow;
 }
