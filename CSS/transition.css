@@ -5,3 +5,30 @@
 #sun:hover {
     fill: yellow;
 }
+
+#sundiv {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: red;
+    transition: background-color 5s;
+}
+
+#moondiv {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    position: relative;
+    top: -300px;
+    right: -300px;
+    transition: right 5s;
+}
+
+#moondiv:hover {
+    right: -50px;
+    background-color: white;
+}
+
+#sundiv:hover {
+    background-color: yellow;
+}
