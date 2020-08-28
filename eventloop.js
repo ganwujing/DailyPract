@@ -19,8 +19,6 @@ function changeGreen() {
     }, 2000)
 }
 
-
-
 function showColor(color) {
     document.getElementById('lamp').style.backgroundColor = color;
 }
